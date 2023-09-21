@@ -1,5 +1,21 @@
 window.addEventListener('DOMContentLoaded', _event => {
   const css = `
+  .message-item .message-avatar {
+  display: none;
+}
+
+.feedCardAvatar {
+  display: none;
+}
+
+.feed-shortcuts {
+	display: none !important;
+}
+
+.chatWindow_titleName {
+	display: none;
+}
+  
     #page #footer-wrapper,
     .drawing-board .toolbar .toolbar-action,
     .c-swiper-container,
