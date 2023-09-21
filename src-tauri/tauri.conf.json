@@ -4,6 +4,11 @@
     "version": "1.0.0"
   },
   "tauri": {
+    "windows": [
+      {
+        "transparent": false
+      }
+    ],
     "security": {
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
